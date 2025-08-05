@@ -152,12 +152,12 @@ strong {
   align-items: flex-start;
 }
 
-.bio-image {
+.bio-image-left {
   flex: 0 0 400px;
   width: 400px;
 }
 
-.bio-image img {
+.bio-image-left img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -175,7 +175,7 @@ strong {
     gap: 2em;
   }
 
-  .bio-image {
+  .bio-image-left {
     flex: none;
     align-self: center;
   }
