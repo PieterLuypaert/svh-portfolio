@@ -3,7 +3,7 @@ let mix = require("laravel-mix");
 mix
   .js("src/js/main.js", "build/js")
   .setPublicPath("build")
-  .sass("src/scss/app.scss", "build/css")
+  .postCss("src/css/main.css", "build/css") // Gebruik postCss voor gewone CSS
   .copyDirectory("src/images", "build/images")
   .version()
   .browserSync({
