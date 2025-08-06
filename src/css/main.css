@@ -15,7 +15,7 @@ header {
 
 .header-background {
   height: 100vh;
-  background-image: url("/src/images/background.webp");
+  background-image: url("/src/images/achtergrond.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -95,6 +95,7 @@ header {
   display: block;
   letter-spacing: 0.3em;
   margin: 0.2em 0;
+  padding-left: 45rem;
 }
 
 .title-underline {
