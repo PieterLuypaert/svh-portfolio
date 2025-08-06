@@ -157,51 +157,95 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 {
-  font-size: 2rem;
-  margin-bottom: 1.5em;
-  letter-spacing: 0.15em;
+.bio-title {
+  font-size: 4.5rem;
+  margin-bottom: 1em;
+  letter-spacing: 0.2em;
   font-weight: 400;
   font-family: "Fjalla One", sans-serif;
+  color: #2c2c2c;
+  position: relative;
+  text-transform: uppercase;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3em;
+  left: 0;
+  width: 120px;
+  height: 4px;
+  background: linear-gradient(90deg, #2c2c2c, #666, transparent);
+  border-radius: 2px;
 }
 
 p {
-  font-size: 1.1rem;
-  margin-bottom: 1.5em;
+  font-size: 1.1em;
+  margin-bottom: 1em;
   text-align: justify;
-  font-family: "Open Sans", sans-serif;
+  font-family: "source sans pro", sans-serif;
+  color: #444;
+  position: relative;
+  padding-left: 0;
+  transition: all 0.3s ease;
 }
+
 
 strong {
   font-weight: 600;
-  color: black;
+  color: #1a1a1a;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9em;
+  position: relative;
 }
 
+
+
 .bio-section {
-  margin-bottom: 1em;
+  margin-bottom: 4em;
+  padding: 4em 0;
+  position: relative;
+}
+
+.bio-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #333, transparent);
 }
 
 .bio-container {
   display: flex;
-  gap: 4em;
+  gap: 6em;
   align-items: flex-start;
+  position: relative;
 }
 
 .bio-image-left {
-  flex: 0 0 400px;
-  width: 400px;
+  flex: 0 0 450px;
+  width: 450px;
+  position: relative;
 }
 
 .bio-image-left img {
   width: 100%;
   height: auto;
   object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .bio-text-right {
   flex: 1;
   line-height: 1.8;
-  text-wrap: pretty;
+  padding-left: 2em;
 }
 
 @media (max-width: 1024px) {
@@ -234,16 +278,28 @@ strong {
   }
 
   .bio-container {
-    gap: 3em;
+    gap: 4em;
   }
 
   .bio-image-left {
-    flex: 0 0 350px;
-    width: 350px;
+    flex: 0 0 380px;
+    width: 380px;
   }
 
   h2 {
-    font-size: 1.8rem;
+    font-size: 3.8rem;
+  }
+
+  h2::after {
+    width: 100px;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  p:first-of-type {
+    font-size: 1.25rem;
   }
 }
 
@@ -275,33 +331,46 @@ strong {
     padding: 4em 1.5em 3em 1.5em;
   }
 
-  .bio-container {
-    flex-direction: column;
-    gap: 2.5em;
-    text-align: center;
+  .bio-section {
+    padding: 3em 0;
   }
 
-  .bio-image-left {
-    flex: none;
-    align-self: center;
-    width: 100%;
-    max-width: 400px;
+  .bio-container {
+    gap: 3em;
   }
 
   .bio-text-right {
-    text-align: left;
+    padding-left: 0;
   }
 
   h2 {
-    font-size: 1.6rem;
+    font-size: 3rem;
     text-align: center;
-    margin-bottom: 1.2em;
+    margin-bottom: 1.8em;
+  }
+
+  h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
   }
 
   p {
-    font-size: 1rem;
-    margin-bottom: 1.3em;
+    font-size: 1.1rem;
     text-align: left;
+    margin-bottom: 1.8em;
+  }
+
+  p:first-of-type {
+    font-size: 1.2rem;
+  }
+
+  p:first-of-type::before {
+    display: none;
+  }
+
+  .bio-image-left::after {
+    display: none;
   }
 }
 
@@ -342,7 +411,15 @@ strong {
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  p:first-of-type {
+    font-size: 1.1rem;
   }
 }
 
@@ -375,31 +452,27 @@ strong {
     line-height: 1.1;
   }
 
-  main {
-    padding: 2.5em 1em 1.5em 1em;
-  }
-
-  .bio-container {
-    gap: 1.5em;
-  }
-
-  .bio-image-left {
-    max-width: 300px;
+  .bio-section {
+    padding: 2em 0;
   }
 
   h2 {
-    font-size: 1.2rem;
-    margin-bottom: 1em;
+    font-size: 2rem;
+    margin-bottom: 1.5em;
+  }
+
+  h2::after {
+    width: 60px;
+    height: 3px;
   }
 
   p {
-    font-size: 0.9rem;
-    line-height: 1.6;
-    margin-bottom: 1.2em;
+    font-size: 0.95rem;
+    margin-bottom: 1.5em;
   }
 
-  strong {
-    font-size: 0.85em;
+  p:first-of-type {
+    font-size: 1.05rem;
   }
 }
 
