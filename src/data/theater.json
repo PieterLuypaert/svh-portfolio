@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "De Kleine Zeemeermin",
+    "description": "Hoofdrol als Ariel in de musical productie van De Kleine Zeemeermin.",
+    "image": "/src/images/test.jpg",
+    "category": "theater",
+    "year": "2023"
+  },
+  {
+    "id": 2,
+    "title": "Mamma Mia",
+    "description": "Rol van Sophie in de populaire ABBA musical.",
+    "image": "/src/images/test.jpg",
+    "category": "theater",
+    "year": "2022"
+  }
+]

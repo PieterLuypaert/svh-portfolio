@@ -1,0 +1,10 @@
+[
+  {
+    "id": 6,
+    "title": "Animatie Film",
+    "description": "Nederlandse stemmen voor internationale animatiefilm.",
+    "image": "/src/images/test.jpg",
+    "category": "stemacteur",
+    "year": "2023"
+  }
+]

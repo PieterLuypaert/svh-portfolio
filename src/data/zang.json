@@ -1,0 +1,10 @@
+[
+  {
+    "id": 5,
+    "title": "Solo Concert",
+    "description": "Optreden in het Concertgebouw met eigen repertoire.",
+    "image": "/src/images/test.jpg",
+    "category": "zang",
+    "year": "2023"
+  }
+]
