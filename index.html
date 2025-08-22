@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SVH - Portfolio</title>
-    <link rel="stylesheet" href="build/css/main.css">
+    <link rel="stylesheet" href="src/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
@@ -56,7 +56,26 @@
                 </div>
             </div>
         </section>
+
+        <section class="portfolio-section">
+            <h2 class="portfolio-title">Portfolio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Alle</button>
+                <button class="filter-btn" data-filter="theater">Theater - Musical - Muziektheater</button>
+                <button class="filter-btn" data-filter="tv-film">TV - Film</button>
+                <button class="filter-btn" data-filter="zang">Zang</button>
+                <button class="filter-btn" data-filter="stemacteur">Stemacteur</button>
+                <button class="filter-btn" data-filter="onderwijs">Onderwijs</button>
+            </div>
+            <div class="portfolio-grid" id="portfolio-grid">
+            </div>
+        </section>
+        
     </main>
+
+
+
+
 
     <footer class="site-footer">
         <div class="footer-content">
@@ -91,7 +110,7 @@
             </div>
         </div>
     </footer>
-    <script src="build/js/main.js"></script>
+    <script type="module" src="src/js/main.js"></script>
 </body>
 
 </html>
