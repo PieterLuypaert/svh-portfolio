@@ -1,17 +1,69 @@
 [
   {
     "id": 3,
-    "title": "Familie TV Serie",
-    "description": "Gastrol in de populaire Vlaamse TV-serie Familie.",
-    "image": "/src/images/test.jpg",
-    "category": "tv-film",
-    "year": "2023"
-  },
-  {
+    "title": "De Kotmadam (Dokter-2013) - VTM",
+"description": [
+    "Seizoen: 21",
+    "Episode: 1 (aflevering 4 ‘Hoge bloeddruk’)",
+    "Rol: dokter",
+    "Genre: comedy",
+    "Productiehuis: René Vlaeyen - film productions"
+],
+"image": "/src/images/kotmadam.jpg",
+"category": "tv-film",
+"year": "2023"
+},
+{
     "id": 4,
-    "title": "Kortfilm Project",
-    "description": "Hoofdrol in onafhankelijke kortfilm over jonge dromen.",
-    "image": "/src/images/test.jpg",
+    "title": "Emma (vdab-consulente Lea Nachtergaele-2007) - VRT",
+    "description": [
+        "Seizoen: 2007",
+
+        "Episode: 1 (aflevering 53)",
+
+        "Rol: Lea Nachtergaele",
+
+        "Genre: drama",
+
+        "Productiehuis: Sylvester Productions"
+    ],
+    "image": "/src/images/emma.jpg",
+    "category": "tv-film",
+    "year": "2022"
+},
+{
+    "id": 5,
+    "title": "Flikken (balieagente-1998/1999/2000) - VRT",
+    "description": [
+        "Seizoen: 1 en 2",
+
+        "Episoden: 1, 2, 3, 4, 6, 7, 9, 11, 13 (S1) en 1,4 (S2)",
+
+        "Rol: Balieagente Viviane",
+
+        "Genre: Tv-serie politie, drama, actie",
+
+        "Productiehuis: geproduceerd door VRT"
+    ],
+    "image": "/src/images/flikken.jpg",
+    "category": "tv-film",
+    "year": "2022"
+},
+{
+    "id": 6,
+    "title": "Boerenkrijg (Jozefien-1999) - VRT",
+    "description": [
+        "Seizoen: 1",
+
+        "Episode: 1 (aflevering 10 ‘Zondag’)",
+
+        "Rol: Jozefien (Sara Van Hoezen)",
+
+        "Genre: Vlaamse komische tv-serie",
+
+        "Productiehuis: geproduceerd door VRT"
+    ],
+    "image": "/src/images/jozefien.webp",
     "category": "tv-film",
     "year": "2022"
   }

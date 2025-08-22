@@ -139,7 +139,11 @@ export class PortfolioManager {
       <img src="${item.image}" alt="${item.title}" loading="lazy">
       <div class="portfolio-item-content">
         <h3>${item.title}</h3>
-        <p>${item.description}</p>
+        <ul>
+          ${Array.isArray(item.description)
+            ? item.description.map(line => `<li>${line}</li>`).join("")
+            : `<li>${item.description}</li>`}
+        </ul>
         <span class="category">${this.getCategoryLabel(item.category)}</span>
       </div>
     `;
