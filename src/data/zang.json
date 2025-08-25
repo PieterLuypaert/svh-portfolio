@@ -1,10 +1,31 @@
 [
   {
     "id": 5,
-    "title": "Solo Concert",
-    "description": "Optreden in het Concertgebouw met eigen repertoire.",
+    "title": "Night of the Proms (2001)",
+    "description": "Sara Van Hoezen op tournee met Night of the Proms in 2001 samen met o.a. Meatloaf",
     "image": "/src/images/test.jpg",
-    "category": "zang",
-    "year": "2023"
+    "category": "zang"
+  },
+
+  {
+    "id": 6,
+    "title": "Musical Peter Pan - Kon je maar door mijn ogen zien (2000-2001)",
+    "description": "",
+    "image": "/src/images/test.jpg",
+    "category": "zang"
+  },
+  {
+    "id": 7,
+    "title": "Nieuwjaarsconcerten NTgent (2000-2001)",
+    "description": "",
+    "image": "/src/images/nieuwjaarsconcert.jpeg",
+    "category": "zang"
+  },
+  {
+    "id": 8,
+    "title": "The Lucky Stars (Gentse Feesten 2003)",
+    "description": "Merel Cappaert (zwart), Sara Van Hoezen (wit), Liv Goethals (rood) - alias De Madonna’s of beter The Lucky Stars zingen a capella o.a. La Isla Bonita, Material Girl, Like a Virgin (eigen bewerkingen) op straat tijdens de Gentse Feesten",
+    "image": "/src/images/luckystars.jpeg",
+    "category": "zang"
   }
 ]
