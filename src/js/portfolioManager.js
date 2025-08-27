@@ -135,14 +135,20 @@ export class PortfolioManager {
     const itemDiv = document.createElement("div");
     itemDiv.className = "portfolio-item";
 
+    const imageHtml = item.image
+      ? `<img src="${item.image}" alt="${item.title}" loading="lazy">`
+      : "";
+
     itemDiv.innerHTML = `
-      <img src="${item.image}" alt="${item.title}" loading="lazy">
+      ${imageHtml}
       <div class="portfolio-item-content">
         <h3>${item.title}</h3>
         <ul>
-          ${Array.isArray(item.description)
-            ? item.description.map(line => `<li>${line}</li>`).join("")
-            : `<li>${item.description}</li>`}
+          ${
+            Array.isArray(item.description)
+              ? item.description.map((line) => `<li>${line}</li>`).join("")
+              : `<li>${item.description}</li>`
+          }
         </ul>
         <span class="category">${this.getCategoryLabel(item.category)}</span>
       </div>
