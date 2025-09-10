@@ -3,6 +3,7 @@
     "id": 5,
     "title": "Night of the Proms (2001)",
     "description": "Sara Van Hoezen op tournee met Night of the Proms in 2001 samen met o.a. Meatloaf",
+    "audio": "/src/audio/night-of-the-proms.mp3",
     "category": "zang"
   },
 
@@ -11,6 +12,7 @@
     "title": "Musical Peter Pan - Kon je maar door mijn ogen zien (2000-2001)",
     "description": "",
     "image": "/src/images/test.jpg",
+    "audio": "/src/audio/peter-pan-kon-je-maar.mp3",
     "category": "zang"
   },
   {
@@ -18,13 +20,15 @@
     "title": "Nieuwjaarsconcerten NTgent (2000-2001)",
     "description": "",
     "image": "/src/images/nieuwjaarsconcert.jpeg",
+    "audio": "/src/audio/nieuwjaarsconcert.mp3",
     "category": "zang"
   },
   {
     "id": 8,
     "title": "The Lucky Stars (Gentse Feesten 2003)",
-    "description": "Merel Cappaert (zwart), Sara Van Hoezen (wit), Liv Goethals (rood) - alias De Madonna’s of beter The Lucky Stars zingen a capella o.a. La Isla Bonita, Material Girl, Like a Virgin (eigen bewerkingen) op straat tijdens de Gentse Feesten",
+    "description": "Merel Cappaert (zwart), Sara Van Hoezen (wit), Liv Goethals (rood) - alias De Madonna's of beter The Lucky Stars zingen a capella o.a. La Isla Bonita, Material Girl, Like a Virgin (eigen bewerkingen) op straat tijdens de Gentse Feesten",
     "image": "/src/images/luckystars.jpeg",
+    "audio": "/src/audio/lucky-stars-gentse-feesten.mp3",
     "category": "zang"
   }
 ]

@@ -139,6 +139,27 @@ export class PortfolioManager {
       ? `<img src="${item.image}" alt="${item.title}" loading="lazy">`
       : "";
 
+    // Function to create audio player element
+    function createAudioPlayer(audioSrc, title) {
+      if (!audioSrc) return "";
+
+      return `
+        <div class="audio-section">
+            <h4>🎵 Luister fragment:</h4>
+            <audio controls preload="metadata" class="audio-player">
+                <source src="${audioSrc}" type="audio/mpeg">
+                <source src="${audioSrc.replace(
+                  ".mp3",
+                  ".wav"
+                )}" type="audio/wav">
+                Je browser ondersteunt geen audio element.
+            </audio>
+        </div>
+    `;
+    }
+
+    const audioPlayer = createAudioPlayer(item.audio, item.title);
+
     itemDiv.innerHTML = `
       ${imageHtml}
       <div class="portfolio-item-content">
@@ -152,6 +173,7 @@ export class PortfolioManager {
         </ul>
         <span class="category">${this.getCategoryLabel(item.category)}</span>
       </div>
+      ${audioPlayer}
     `;
     return itemDiv;
   }

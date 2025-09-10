@@ -15,5 +15,97 @@
     ],
     "image": "/src/images/thuiskomst.webp",
     "category": "theater"
+  },
+  {
+    "id": 2,
+    "title": "De bacchanten (1997-1999) - theater)",
+    "description": [
+      "Tekst: Remix naar Euripides",
+
+      "Regie: Craig Weston",
+
+      "Rol: Ruth (Sara Van Hoezen)",
+
+      "Genre: drama",
+
+      "Productiehuis: Sylvester Productions"
+    ],
+    "image": "/src/images/bacchanten.webp",
+    "category": "theater"
+  },
+  {
+    "id": 3,
+    "title": "Beter één vogel in de hand dan tien in de lucht (1998) - theater",
+    "description": [
+      "Tekst: Een collage van eigen teksten en fragmenten uit de internationale literatuur en film van vroeger en nu",
+
+      "Regie: Jan Steen",
+
+      "Rol: Didi (Sara Van Hoezen)",
+
+      "Eindexamen van 2de master dramatische kunst optie toneel, HoGent"
+    ],
+    "image": "/src/images/vogel.webp",
+    "category": "theater"
+  },
+  {
+    "id": 2,
+    "title": "Het moederskind (1996) - theater",
+    "description": [
+      "Tekst: Geertrui Daems",
+
+      "Spel en regie: Katrien De Muynck, Jef Ravelingien, Rebecca Tanghe en Sara Van Hoezen",
+
+      "Rol: de moeder",
+
+      "Genre: drama"
+    ],
+    "image": "/src/images/moederskind.webp",
+    "category": "theater"
+  },
+  {
+    "id": 4,
+    "title": "Midzomernachtsdroom (1997-1999) - theater ",
+    "description": [
+      "Tekst: William Shakespeare",
+
+      "Regie: Niek Kortekaas",
+
+      "Rol: elf en oude bes (Sara Van Hoezen)",
+
+      "met Elise Bundervoet, Brecht Callewaert, Mieke De Groote, Fabrice Delecluse, Luk D’Heu, Hilde Heijnen, Daan Hugaert, Marc Peeters, Mathias Sercu, Miek Van Bocxstaele, Tom Van Landuyt en Eddy Vereycken en conservatoriumstudenten Hogeschool Gent"
+    ],
+    "image": "/src/images/midzomernachtdroom.webp",
+    "category": "theater"
+  },
+  {
+    "id": 5,
+    "title": "Het onderzoek (1998) - theater NTgent",
+    "description": [
+      "Tekst: naar Peter Weiss / Vertaling: Gerrit Kouwenaar",
+
+      "Regie: Eddy Vereycken / Dramaturgie: Alain Pringels / Kostuums en Decor: Marnik Baert / Licht: Jaak Van De Velde",
+
+      "Rol: verschillende Joodse vrouwen (Sara Van Hoezen)",
+
+      "met Gregory Caers, Michael De Cock, Sophie Derycke, Pieter Genard, Jef Ravelingien, Kurt Vandendriessche, Sara Van Hoezen, Bert Vannieuwenhuyse, Bert Van Poucke en Kurt Vergult"
+    ],
+    "image": "/src/images/onderzoek.webp",
+    "category": "theater"
+  },
+  {
+    "id": 6,
+    "title": "A Clockwork Orange (1997-1998) - theater",
+    "description": [
+      "Tekst: Anthony Burgess",
+
+      "Regie: Niek Kortekaas",
+
+      "Rol: Dim, één van de trouwe vrienden van Alex (het hoofdpersonage gespeeld door Tom Van Landuyt)",
+
+      "met Elise Bundervoet, Mieke De Groote, Luk D’Heu, Daan Hugaert, Marc Peeters, Miek Van Bocxstaele, Tom Van Landuyt, Eddy Vereycken en studenten conservatorium Hogeschool Gent"
+    ],
+    "image": "/src/images/clockwork.webp",
+    "category": "theater"
   }
 ]
