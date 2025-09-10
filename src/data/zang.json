@@ -3,24 +3,14 @@
     "id": 5,
     "title": "Night of the Proms (2001)",
     "description": "Sara Van Hoezen op tournee met Night of the Proms in 2001 samen met o.a. Meatloaf",
-    "audio": "/src/audio/night-of-the-proms.mp3",
-    "category": "zang"
-  },
-
-  {
-    "id": 6,
-    "title": "Musical Peter Pan - Kon je maar door mijn ogen zien (2000-2001)",
-    "description": "",
-    "image": "/src/images/test.jpg",
-    "audio": "/src/audio/peter-pan-kon-je-maar.mp3",
+    "image": "/src/images/proms.webp",
     "category": "zang"
   },
   {
     "id": 7,
-    "title": "Nieuwjaarsconcerten NTgent (2000-2001)",
-    "description": "",
-    "image": "/src/images/nieuwjaarsconcert.jpeg",
-    "audio": "/src/audio/nieuwjaarsconcert.mp3",
+    "title": "Zangeres in band DYNAMO HUM (sinds 2024)",
+    "description": "Als zangeres in de band DYNAMO HUM in 2024, heb ik de kans om met getalenteerde muzikanten te werken en een uniek geluid te creëren. We hebben een mix van genres verkend, van rock tot pop en zelfs een vleugje jazz. Onze muziek is gevarieerd en dynamisch, net als onze bandnaam suggereert.  Je mag je verwachten aan GROOVY ROCK'N ROLL MUSIC!\nOp 25 mei 2024 traden we de eerste keer op in café De Krockébar Adres: Missiestraat 23, 9255 Buggenhout",
+    "image": "/src/images/band.webp",
     "category": "zang"
   },
   {
@@ -28,7 +18,6 @@
     "title": "The Lucky Stars (Gentse Feesten 2003)",
     "description": "Merel Cappaert (zwart), Sara Van Hoezen (wit), Liv Goethals (rood) - alias De Madonna's of beter The Lucky Stars zingen a capella o.a. La Isla Bonita, Material Girl, Like a Virgin (eigen bewerkingen) op straat tijdens de Gentse Feesten",
     "image": "/src/images/luckystars.jpeg",
-    "audio": "/src/audio/lucky-stars-gentse-feesten.mp3",
     "category": "zang"
   }
 ]
