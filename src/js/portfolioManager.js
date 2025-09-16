@@ -97,7 +97,7 @@ export class PortfolioManager {
   fadeOutItems() {
     const items = this.gridContainer.querySelectorAll(".portfolio-item");
     items.forEach((item, index) => {
-      // Remove any existing animation classes first
+      // Remove any existing animation classes first 
       item.classList.remove("portfolio-item-animating");
       setTimeout(() => {
         item.classList.add("fade-out");
