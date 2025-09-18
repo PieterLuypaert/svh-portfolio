@@ -107,5 +107,59 @@
     ],
     "image": "/src/images/clockwork.webp",
     "category": "theater"
-  }
+  },
+  {
+    "id": 7,
+    "title": "Macbeth (1999) - theater",
+    "description": [
+      "Tekst: Shakespeare",
+      "Regie: Guy Van Sande",
+      "met Mathias Sercu, Brecht Callewaert, Mieke De Groote, Fabrice Delecluse, Daan Hugaert, Erna Palsterman, Jef Ravelingien, Joris Schoenmaeckers, Door Van Boeckel, Sara Van Hoezen, Tom Van Landuyt, Greta Van Langendonck, Aron Wade en Maarten Wansink"
+    ],
+    "image": "/src/images/macbeth.webp",
+    "category": "theater"
+  },
+  {
+    "id": 8,
+    "title": "Peter Pan (2000-2001) - musical",
+    "description": [
+      "Tekst en muziek: Jan De Vuyst en Jean Blaute (naar James Matthew Barrie)",
+
+      "Regie: Jean-Pierre De Decker",
+
+      "Rol: Tijgerlelie en Nana de hond"
+
+    ],
+    "image": "/src/images/peterpan.webp",
+    "category": "theater"
+  },
+  {
+    "id": 9,
+    "title": "Leonce en Lena (2001) - theater ",
+    "description": [
+      "Tekst: Georg Büchner",
+
+      "Regie: Domien Van Der Meiren",
+
+      "Rol: Huislerares (Sara Van Hoezen)"
+
+    ],
+    "image": "/src/images/leoncenelena.png",
+    "category": "theater"
+  },
+  {
+    "id": 10,
+    "title": "A Clockwork Orange (1997-1998) - theater",
+    "description": [
+      "Tekst: Anthony Burgess",
+
+      "Regie: Niek Kortekaas",
+
+      "Rol: Dim, één van de trouwe vrienden van Alex (het hoofdpersonage gespeeld door Tom Van Landuyt)",
+
+      "met Elise Bundervoet, Mieke De Groote, Luk D’Heu, Daan Hugaert, Marc Peeters, Miek Van Bocxstaele, Tom Van Landuyt, Eddy Vereycken en studenten conservatorium Hogeschool Gent"
+    ],
+    "image": "/src/images/clockwork.webp",
+    "category": "theater"
+  }  
 ]
