@@ -162,6 +162,7 @@ h1 {
   color: #2c2c2c;
   position: relative;
   text-transform: uppercase;
+  margin-left: -10rem;
 }
 
 .bio-title h2::after {
@@ -221,7 +222,8 @@ strong {
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 5all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 17em;
 }
 
 .bio-text-right {
