@@ -17,7 +17,7 @@ header {
   height: 100vh;
   background-image: url("/src/images/achtergrond.png");
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   position: relative;
   background-attachment: scroll;
@@ -27,6 +27,51 @@ header {
 @media (pointer: coarse) {
   .header-background {
     background-attachment: scroll;
+  }
+}
+
+/* Mobile background positioning fixes */
+@media (max-width: 768px) {
+  .header-background {
+    background-position: center top;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-background {
+    background-position: 30% top;
+    background-size: auto 100vh;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-background {
+    background-position: 25% top;
+    background-size: auto 110vh;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-background {
+    background-position: 20% top;
+    background-size: auto 120vh;
+  }
+}
+
+@media (max-width: 360px) {
+  .header-background {
+    background-position: 15% top;
+    background-size: auto 130vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-background {
+    background-position: 10% top;
+    background-size: auto 140vh;
   }
 }
 
