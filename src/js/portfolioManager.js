@@ -99,6 +99,11 @@ export class PortfolioManager {
 
       if (category === "all") {
         itemsToShow = this.allItems;
+      } else if (category === "onderwijs") {
+        // Special handling for onderwijs - show PDF
+        this.renderPDF();
+        this.setButtonsState(true);
+        return;
       } else {
         itemsToShow = await this.dataFetcher.fetchCategoryData(category);
       }
@@ -107,6 +112,61 @@ export class PortfolioManager {
       this.renderItems(itemsToShow);
       this.setButtonsState(true);
     }, 300);
+  }
+
+  renderPDF() {
+    if (!this.gridContainer) return;
+
+    setTimeout(() => {
+      this.gridContainer.innerHTML = "";
+
+      const pdfContainer = this.createPDFElement();
+      this.gridContainer.appendChild(pdfContainer);
+
+      // Force reflow and trigger animation
+      pdfContainer.offsetHeight;
+      setTimeout(() => {
+        pdfContainer.classList.add("portfolio-item-animating");
+      }, 100);
+    }, 50);
+  }
+
+  createPDFElement() {
+    const pdfDiv = document.createElement("div");
+    pdfDiv.className = "portfolio-item pdf-viewer-container";
+
+    pdfDiv.innerHTML = `
+      <div class="pdf-header">
+        <h3>Onderwijs Portfolio</h3>
+        <div class="pdf-controls">
+          <a href="src/images/Onderwijs.pdf" target="_blank" class="pdf-download-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7,10 12,15 17,10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Download PDF
+          </a>
+        </div>
+      </div>
+      <div class="pdf-viewer">
+        <iframe 
+          src="src/images/Onderwijs.pdf" 
+          type="application/pdf"
+          title="Onderwijs Portfolio PDF"
+          loading="lazy">
+          <p>Je browser ondersteunt geen PDF weergave. 
+            <a href="src/images/Onderwijs.pdf" target="_blank">Klik hier om de PDF te downloaden</a>
+          </p>
+        </iframe>
+      </div>
+      <div class="portfolio-item-content">
+        <p>Mijn ervaring en kwalificaties in het onderwijs. Download de PDF voor meer details over mijn onderwijsachtergrond.</p>
+        <span class="category">${this.getCategoryLabel("onderwijs")}</span>
+      </div>
+    `;
+
+    return pdfDiv;
   }
 
   showPreviewMessage() {
