@@ -137,7 +137,7 @@ export class PortfolioManager {
 
     pdfDiv.innerHTML = `
       <div class="pdf-header">
-        <h3>Onderwijs Portfolio</h3>
+        <h3>Onderwijs</h3>
         <div class="pdf-controls">
           <a href="src/images/Onderwijs.pdf" target="_blank" class="pdf-download-btn">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
