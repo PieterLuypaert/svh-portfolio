@@ -97,7 +97,7 @@ export class PortfolioManager {
   fadeOutItems() {
     const items = this.gridContainer.querySelectorAll(".portfolio-item");
     items.forEach((item, index) => {
-      // Remove any existing animation classes first 
+      // Remove any existing animation classes first
       item.classList.remove("portfolio-item-animating");
       setTimeout(() => {
         item.classList.add("fade-out");
@@ -160,17 +160,23 @@ export class PortfolioManager {
 
     const audioPlayer = createAudioPlayer(item.audio, item.title);
 
+    // Handle description - only show if it exists and is not empty
+    let descriptionHtml = "";
+    if (item.description && item.description.length > 0) {
+      if (Array.isArray(item.description)) {
+        descriptionHtml = `<ul>${item.description
+          .map((line) => `<li>${line}</li>`)
+          .join("")}</ul>`;
+      } else {
+        descriptionHtml = `<ul><li>${item.description}</li></ul>`;
+      }
+    }
+
     itemDiv.innerHTML = `
       ${imageHtml}
       <div class="portfolio-item-content">
         <h3>${item.title}</h3>
-        <ul>
-          ${
-            Array.isArray(item.description)
-              ? item.description.map((line) => `<li>${line}</li>`).join("")
-              : `<li>${item.description}</li>`
-          }
-        </ul>
+        ${descriptionHtml}
         <span class="category">${this.getCategoryLabel(item.category)}</span>
       </div>
       ${audioPlayer}
