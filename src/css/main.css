@@ -468,6 +468,25 @@ strong {
   padding-left: 0;
 }
 
+.portfolio-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.portfolio-item li {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0.3rem 0;
+  text-align: left;
+  line-height: 1.5;
+  padding-left: 0;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
 .portfolio-item .category {
   display: inline-block;
   background: #2c2c2c;
