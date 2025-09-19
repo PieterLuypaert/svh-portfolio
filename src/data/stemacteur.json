@@ -1,12 +1,14 @@
 [
   {
     "id": 6,
+    "image": "/src/images/stem.webp",
     "title": "Animatie Film",
     "category": "stemacteur",
     "audio": "/src/audio/S.Van_Hoezen_5fr.mp3"
   },
   {
     "id": 7,
+    "image": "/src/images/stem.webp",
     "title": "Sportlife",
     "category": "stemacteur",
     "audio": "/src/audio/S._Van_Hoezen_Sportlife.mp3"
