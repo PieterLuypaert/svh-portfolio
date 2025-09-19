@@ -910,8 +910,6 @@ strong {
     );
   }
 
-
-
   .nav-link {
     font-size: 0.75rem;
     padding: 0.3rem 0.6rem;
@@ -1029,24 +1027,280 @@ strong {
   }
 }
 
-@media (max-width: 320px) {
-  .site-title {
-    font-size: clamp(0.9rem, 2vw, 1.5rem);
-  }
-
-  main {
-    padding: 1.5em 0.6em 0.8em 0.6em;
+/* Bio Section Responsive Styles */
+@media (max-width: 1200px) {
+  .bio-container {
+    gap: 4em;
   }
 
   .bio-image-left {
-    max-width: 260px;
+    flex: 0 0 400px;
+    width: 400px;
   }
 
-  h2 {
+  .bio-image-left img {
+    margin-top: 15em;
+  }
+
+  .bio-title {
+    font-size: 4rem;
+    margin-left: -8rem;
+  }
+
+  .bio-title h2::after {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bio-container {
+    gap: 3em;
+  }
+
+  .bio-image-left {
+    flex: 0 0 350px;
+    width: 350px;
+  }
+
+  .bio-image-left img {
+    margin-top: 12em;
+  }
+
+  .bio-title {
+    font-size: 3.5rem;
+    margin-left: -6rem;
+  }
+
+  .bio-title h2::after {
+    width: 25rem;
+  }
+
+  .bio-text-right {
+    padding-left: 1.5em;
+  }
+}
+
+@media (max-width: 900px) {
+  .bio-container {
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+  }
+
+  .bio-image-left {
+    flex: none;
+    width: 100%;
+    max-width: 400px;
+    order: 2;
+  }
+
+  .bio-image-left img {
+    margin-top: 0;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .bio-text-right {
+    order: 1;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .bio-title {
+    font-size: 3.5rem;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+
+  .bio-title h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .bio-section {
+    padding: 3em 0;
+    margin-bottom: 3em;
+  }
+
+  .bio-container {
+    gap: 2.5em;
+  }
+
+  .bio-image-left {
+    max-width: 350px;
+  }
+
+  .bio-title {
+    font-size: 3rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 1.2em;
+  }
+
+  .bio-title h2::after {
+    width: 15rem;
+    height: 3px;
+  }
+
+  .bio-text-right p {
+    font-size: 1.05rem;
+    margin-bottom: 1.5em;
+    text-align: left;
+    line-height: 1.7;
+  }
+}
+
+@media (max-width: 600px) {
+  .bio-section {
+    padding: 2.5em 0;
+  }
+
+  .bio-container {
+    gap: 2em;
+  }
+
+  .bio-image-left {
+    max-width: 300px;
+  }
+
+  .bio-title {
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+  }
+
+  .bio-title h2::after {
+    width: 12rem;
+  }
+
+  .bio-text-right p {
     font-size: 1rem;
+    margin-bottom: 1.3em;
+  }
+}
+
+@media (max-width: 480px) {
+  .bio-section {
+    padding: 2em 0;
+    margin-bottom: 2.5em;
   }
 
-  p {
+  .bio-container {
+    gap: 1.5em;
+  }
+
+  .bio-image-left {
+    max-width: 280px;
+  }
+
+  .bio-image-left img {
+    border-radius: 6px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  }
+
+  .bio-title {
+    font-size: 2rem;
+    letter-spacing: 0.08em;
+    margin-bottom: 1em;
+  }
+
+  .bio-title h2::after {
+    width: 8rem;
+    height: 2px;
+  }
+
+  .bio-text-right p {
+    font-size: 0.95rem;
+    margin-bottom: 1.2em;
+    line-height: 1.6;
+  }
+
+  .bio-text-right p:first-of-type {
+    font-size: 1.05rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 400px) {
+  .bio-section {
+    padding: 1.5em 0;
+  }
+
+  .bio-container {
+    gap: 1.2em;
+  }
+
+  .bio-image-left {
+    max-width: 250px;
+  }
+
+  .bio-title {
+    font-size: 1.8rem;
+    letter-spacing: 0.05em;
+  }
+
+  .bio-title h2::after {
+    width: 6rem;
+  }
+
+  .bio-text-right p {
+    font-size: 0.9rem;
+    margin-bottom: 1.1em;
+  }
+}
+
+@media (max-width: 360px) {
+  .bio-section {
+    padding: 1.2em 0;
+  }
+
+  .bio-image-left {
+    max-width: 220px;
+  }
+
+  .bio-title {
+    font-size: 1.6rem;
+  }
+
+  .bio-title h2::after {
+    width: 5rem;
+    height: 2px;
+  }
+
+  .bio-text-right p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 320px) {
+  .bio-section {
+    padding: 1em 0;
+    margin-bottom: 2em;
+  }
+
+  .bio-container {
+    gap: 1em;
+  }
+
+  .bio-image-left {
+    max-width: 200px;
+  }
+
+  .bio-title {
+    font-size: 1.4rem;
+    letter-spacing: 0.03em;
+  }
+
+  .bio-title h2::after {
+    width: 4rem;
+  }
+
+  .bio-text-right p {
     font-size: 0.8rem;
     margin-bottom: 1em;
   }
