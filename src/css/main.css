@@ -1490,10 +1490,10 @@ strong {
   }
 }
 
-/* Event Section Responsive Styles */
+/* Event Section Responsive Styles - Optimized */
 @media (max-width: 1200px) {
   .event-section {
-    padding: 3.5em 0;
+    padding: 3.5em 1em;
     margin-bottom: 3.5em;
   }
 
@@ -1515,7 +1515,7 @@ strong {
 
 @media (max-width: 1024px) {
   .event-section {
-    padding: 3em 0;
+    padding: 3em 1em;
     margin-bottom: 3em;
     border-radius: 14px;
   }
@@ -1540,7 +1540,7 @@ strong {
 
 @media (max-width: 900px) {
   .event-section {
-    padding: 2.5em 0;
+    padding: 2.5em 1em;
     border-radius: 12px;
   }
 
@@ -1551,14 +1551,14 @@ strong {
   }
 
   .event-details {
-    max-width: 650px;
+    max-width: 90%;
     padding: 2.2rem;
   }
 }
 
 @media (max-width: 768px) {
   .event-section {
-    padding: 2em 0;
+    padding: 2em 1em;
     margin-bottom: 2.5em;
     border-radius: 10px;
   }
@@ -1570,8 +1570,8 @@ strong {
   }
 
   .event-details {
-    max-width: 90%;
-    padding: 2rem;
+    max-width: 95%;
+    padding: 2rem 1.5rem;
     border-radius: 12px;
     margin: 0 auto;
   }
@@ -1589,7 +1589,7 @@ strong {
 
 @media (max-width: 600px) {
   .event-section {
-    padding: 1.8em 0;
+    padding: 1.8em 0.8em;
     margin-bottom: 2em;
   }
 
@@ -1600,8 +1600,8 @@ strong {
   }
 
   .event-details {
-    max-width: 95%;
-    padding: 1.8rem;
+    max-width: 100%;
+    padding: 1.8rem 1.2rem;
     border-radius: 10px;
   }
 
@@ -1613,7 +1613,7 @@ strong {
 
 @media (max-width: 480px) {
   .event-section {
-    padding: 1.5em 0;
+    padding: 1.5em 0.5em;
     margin-bottom: 1.8em;
     border-radius: 8px;
   }
@@ -1625,8 +1625,8 @@ strong {
   }
 
   .event-details {
-    max-width: 98%;
-    padding: 1.5rem;
+    max-width: 100%;
+    padding: 1.5rem 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
   }
@@ -1649,7 +1649,7 @@ strong {
 
 @media (max-width: 400px) {
   .event-section {
-    padding: 1.2em 0;
+    padding: 1.2em 0.3em;
     margin-bottom: 1.5em;
   }
 
@@ -1660,7 +1660,7 @@ strong {
   }
 
   .event-details {
-    padding: 1.2rem;
+    padding: 1.2rem 0.8rem;
     border-radius: 6px;
   }
 
@@ -1676,7 +1676,7 @@ strong {
 
 @media (max-width: 360px) {
   .event-section {
-    padding: 1em 0;
+    padding: 1em 0.2em;
     margin-bottom: 1.2em;
   }
 
@@ -1687,7 +1687,7 @@ strong {
   }
 
   .event-details {
-    padding: 1rem;
+    padding: 1rem 0.6rem;
     border-radius: 5px;
   }
 
@@ -1708,7 +1708,7 @@ strong {
 
 @media (max-width: 320px) {
   .event-section {
-    padding: 0.8em 0;
+    padding: 0.8em 0.1em;
     margin-bottom: 1em;
   }
 
@@ -1719,7 +1719,7 @@ strong {
   }
 
   .event-details {
-    padding: 0.8rem;
+    padding: 0.8rem 0.5rem;
     border-radius: 4px;
   }
 
