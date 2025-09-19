@@ -1480,7 +1480,6 @@ strong {
 .audio-section {
   margin-bottom: 3em;
   padding: 2em 0;
-  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
   border-radius: 12px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.03);
   position: relative;
@@ -1490,7 +1489,6 @@ strong {
 .portfolio-item .audio-section {
   margin: 1.5rem 0 0 0;
   padding: 1.5rem;
-  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
   border-top: 1px solid rgba(44, 44, 44, 0.06);
