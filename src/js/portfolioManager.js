@@ -161,7 +161,7 @@ export class PortfolioManager {
         </iframe>
       </div>
       <div class="portfolio-item-content">
-        <p>Mijn ervaring en kwalificaties in het onderwijs. Download de PDF voor meer details over mijn onderwijsachtergrond.</p>
+        <p>Mijn ervaring en kwalificaties in het onderwijs.</p>
         <span class="category">${this.getCategoryLabel("onderwijs")}</span>
       </div>
     `;
