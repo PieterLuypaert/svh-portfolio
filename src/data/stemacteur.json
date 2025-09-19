@@ -2,7 +2,7 @@
   {
     "id": 6,
     "image": "/src/images/stem.webp",
-    "title": "Animatie Film",
+    "title": "5 Frank",
     "category": "stemacteur",
     "audio": "/src/audio/S.Van_Hoezen_5fr.mp3"
   },
@@ -12,5 +12,19 @@
     "title": "Sportlife",
     "category": "stemacteur",
     "audio": "/src/audio/S._Van_Hoezen_Sportlife.mp3"
+  },
+  {
+    "id": 8,
+    "image": "/src/images/stem.webp",
+    "title": "Passoa",
+    "category": "stemacteur",
+    "audio": "/src/audio/S._Van_Hoezen_Passoa.mp3"
+  },
+  {
+    "id": 9,
+    "image": "/src/images/stem.webp",
+    "title": "Mitsubishi",
+    "category": "stemacteur",
+    "audio": "/src/audio/S._Van_Hoezen_Mitsubishi.mp3"
   }
 ]
