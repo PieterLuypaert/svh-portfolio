@@ -1200,7 +1200,7 @@ strong {
   }
 
   .bio-text-right p {
-    font-size: 1.05rem;
+    font-size: 1.05rem !important;
     margin-bottom: 1.5em;
     text-align: left;
     line-height: 1.7;
@@ -1230,7 +1230,7 @@ strong {
   }
 
   .bio-text-right p {
-    font-size: 1rem;
+    font-size: 1rem !important;
     margin-bottom: 1.3em;
   }
 }
@@ -1266,14 +1266,9 @@ strong {
   }
 
   .bio-text-right p {
-    font-size: 0.95rem;
+    font-size: 0.95rem !important;
     margin-bottom: 1.2em;
     line-height: 1.6;
-  }
-
-  .bio-text-right p:first-of-type {
-    font-size: 1.05rem;
-    font-weight: 500;
   }
 }
 
@@ -1300,7 +1295,7 @@ strong {
   }
 
   .bio-text-right p {
-    font-size: 0.9rem;
+    font-size: 0.9rem !important;
     margin-bottom: 1.1em;
   }
 }
@@ -1324,7 +1319,7 @@ strong {
   }
 
   .bio-text-right p {
-    font-size: 0.85rem;
+    font-size: 0.85rem !important;
     line-height: 1.5;
   }
 }
@@ -1353,7 +1348,7 @@ strong {
   }
 
   .bio-text-right p {
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
     margin-bottom: 1em;
   }
 }
@@ -1900,6 +1895,11 @@ strong {
     margin: 0.5rem 0;
   }
 
+  .event-details strong {
+    font-size: 0.7rem;
+    margin-right: 0.2rem;
+  }
+}
   .event-details strong {
     font-size: 0.7rem;
     margin-right: 0.2rem;
