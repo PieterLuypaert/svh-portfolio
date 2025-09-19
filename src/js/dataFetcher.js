@@ -45,8 +45,9 @@ export class DataFetcher {
         {
           id: 1,
           title: "De Kleine Zeemeermin",
-          description:
+          description: [
             "Hoofdrol als Ariel in de musical productie van De Kleine Zeemeermin.",
+          ],
           image: "src/images/theater1.jpg",
           category: "theater",
           year: "2023",
@@ -54,7 +55,7 @@ export class DataFetcher {
         {
           id: 2,
           title: "Mamma Mia",
-          description: "Rol van Sophie in de populaire ABBA musical.",
+          description: ["Rol van Sophie in de populaire ABBA musical."],
           image: "src/images/theater2.jpg",
           category: "theater",
           year: "2022",
@@ -64,7 +65,7 @@ export class DataFetcher {
         {
           id: 3,
           title: "Familie TV Serie",
-          description: "Gastrol in de populaire Vlaamse TV-serie Familie.",
+          description: ["Gastrol in de populaire Vlaamse TV-serie Familie."],
           image: "src/images/tv1.jpg",
           category: "tv-film",
           year: "2023",
@@ -74,7 +75,7 @@ export class DataFetcher {
         {
           id: 4,
           title: "Solo Concert",
-          description: "Optreden in het Concertgebouw met eigen repertoire.",
+          description: ["Optreden in het Concertgebouw met eigen repertoire."],
           image: "src/images/zang1.jpg",
           category: "zang",
           year: "2023",
@@ -84,7 +85,9 @@ export class DataFetcher {
         {
           id: 5,
           title: "Animatie Film",
-          description: "Nederlandse stemmen voor internationale animatiefilm.",
+          description: [
+            "Nederlandse stemmen voor internationale animatiefilm.",
+          ],
           image: "src/images/voice1.jpg",
           category: "stemacteur",
           year: "2023",
@@ -94,7 +97,7 @@ export class DataFetcher {
         {
           id: 6,
           title: "Zangworkshops",
-          description: "Lesgeven aan jonge talenten in zang en performance.",
+          description: ["Lesgeven aan jonge talenten in zang en performance."],
           image: "src/images/onderwijs1.jpg",
           category: "onderwijs",
           year: "2023",

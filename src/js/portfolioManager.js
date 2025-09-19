@@ -7,6 +7,7 @@ export class PortfolioManager {
     this.allItems = [];
     this.gridContainer = null;
     this.filterButtons = null;
+    this.isInitialLoad = true;
   }
 
   init() {
@@ -52,24 +53,46 @@ export class PortfolioManager {
       this.showLoading();
       this.allItems = await this.dataFetcher.fetchAllData();
       console.log(`Loaded ${this.allItems.length} portfolio items`);
-      this.renderItems(this.allItems);
+
+      // Only show preview items on initial load
+      if (this.isInitialLoad) {
+        const previewItems = this.getPreviewItems();
+        this.renderItems(previewItems);
+        this.showPreviewMessage();
+      } else {
+        this.renderItems(this.allItems);
+      }
     } catch (error) {
       console.error("Error loading portfolio data:", error);
       this.showError();
     }
   }
 
-  async filterItems(category) {
-    if (this.currentFilter === category) {
-      console.log(`Already showing ${category}, skipping`);
-      return;
+  getPreviewItems() {
+    // Show max 2 items from different categories as preview
+    const previewItems = [];
+    const usedCategories = new Set();
+
+    for (const item of this.allItems) {
+      if (previewItems.length >= 2) break;
+
+      if (!usedCategories.has(item.category)) {
+        previewItems.push(item);
+        usedCategories.add(item.category);
+      }
     }
 
+    return previewItems;
+  }
+
+  async filterItems(category) {
     console.log(`Filtering to category: ${category}`);
     this.currentFilter = category;
+    this.isInitialLoad = false; // No longer initial load
 
     this.setButtonsState(false);
     this.fadeOutItems();
+    this.hidePreviewMessage();
 
     setTimeout(async () => {
       let itemsToShow = [];
@@ -84,6 +107,49 @@ export class PortfolioManager {
       this.renderItems(itemsToShow);
       this.setButtonsState(true);
     }, 300);
+  }
+
+  showPreviewMessage() {
+    // Add preview message after the grid
+    const existingMessage = document.querySelector(".preview-message");
+    if (existingMessage) return;
+
+    const messageDiv = document.createElement("div");
+    messageDiv.className = "preview-message";
+    messageDiv.style.cssText = `
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1.5rem;
+      background: linear-gradient(135deg, #f8fafc 0%, #e8eaf6 100%);
+      border-radius: 8px;
+      border: 1px solid rgba(44, 44, 44, 0.08);
+    `;
+
+    messageDiv.innerHTML = `
+      <p style="
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 1.1rem;
+        color: #2c2c2c;
+        margin: 0 0 0.5rem 0;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      ">Selecteer een categorie om meer werk te bekijken</p>
+      <p style="
+        font-family: 'source sans pro', sans-serif;
+        font-size: 0.9rem;
+        color: #666;
+        margin: 0;
+      ">Gebruik de filter knoppen hierboven om specifieke categorieën te verkennen.</p>
+    `;
+
+    this.gridContainer.parentNode.appendChild(messageDiv);
+  }
+
+  hidePreviewMessage() {
+    const messageDiv = document.querySelector(".preview-message");
+    if (messageDiv) {
+      messageDiv.remove();
+    }
   }
 
   setButtonsState(enabled) {
