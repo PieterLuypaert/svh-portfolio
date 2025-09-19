@@ -910,13 +910,7 @@ strong {
     );
   }
 
-  .navbar {
-    margin: 0.5rem;
-    padding: 0.4rem 0.8rem;
-    gap: 0.8rem;
-    flex-direction: column;
-    background: rgba(255, 255, 255, 0.15);
-  }
+
 
   .nav-link {
     font-size: 0.75rem;
