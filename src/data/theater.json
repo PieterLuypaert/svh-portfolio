@@ -128,7 +128,6 @@
       "Regie: Jean-Pierre De Decker",
 
       "Rol: Tijgerlelie en Nana de hond"
-
     ],
     "image": "/src/images/peterpan.webp",
     "category": "theater"
@@ -142,24 +141,128 @@
       "Regie: Domien Van Der Meiren",
 
       "Rol: Huislerares (Sara Van Hoezen)"
-
     ],
     "image": "/src/images/leoncenelena.png",
     "category": "theater"
   },
   {
     "id": 10,
-    "title": "A Clockwork Orange (1997-1998) - theater",
+    "title": "The Rocky Horror Show (2001-2002) - musical",
     "description": [
       "Tekst: Anthony Burgess",
 
+      "Regie: Stany Crets",
+
+      "Rol: op sex beluste Columbia (Sara Van Hoezen)"
+    ],
+    "image": "/src/images/rocky.webp",
+    "category": "theater"
+  },
+
+  {
+    "id": 11,
+    "title": "De Tovenaar van Oz (1998) - musical",
+    "description": [
       "Regie: Niek Kortekaas",
 
-      "Rol: Dim, één van de trouwe vrienden van Alex (het hoofdpersonage gespeeld door Tom Van Landuyt)",
-
-      "met Elise Bundervoet, Mieke De Groote, Luk D’Heu, Daan Hugaert, Marc Peeters, Miek Van Bocxstaele, Tom Van Landuyt, Eddy Vereycken en studenten conservatorium Hogeschool Gent"
+      "Rol: Chorus en Understudy van de boze heks van het Westen en Miss Almira"
     ],
-    "image": "/src/images/clockwork.webp",
+    "image": "/src/images/heks.webp",
     "category": "theater"
-  }  
+  },
+  {
+    "id": 12,
+    "title": "Gepetto (2002-2003) - poppentheater",
+    "description": [
+      "Tekst: Carl Norac",
+
+      "Regie: Slavcho Malenov (Theatre Atelier 313, Sofia)",
+
+      "Rol: Slakkenvrouwtje (Sara Van Hoezen)"
+    ],
+    "image": "/src/images/gepetto.webp",
+    "category": "theater"
+  },
+  {
+    "id": 13,
+    "title": "Fame (2001) - musical",
+    "description": [
+      "Tekst: Allan Parkar bewerkt door Serge Elia",
+
+      "Regie: Serge Elia",
+
+      "Rol: leerkracht zang Hilde Stuyck (Sara Van Hoezen)"
+    ],
+    "image": "/src/images/fame.webp",
+    "category": "theater"
+  },
+  {
+    "id": 14,
+    "title": "Hondslelijk (2002) - muziektheater",
+    "description": [
+      "Tekst: naar Coyote Ugly (film), bewerkt door Serge Elia",
+
+      "Regie: Serge Elia",
+
+      "Rol: Sara Van Hoezen in de rol van Mireille Dhondt",
+
+      "met Sherolyn Vandenbossche, Sara Van Hoezen, Anna Efthymiadis, Peter Michel, Eefje De Vulder, Stéphanie Dequin, Femke Stoop, James Cooke en Daan Van den Durpel"
+    ],
+    "image": "/src/images/hondslelijk.webp",
+    "category": "theater"
+  },
+  {
+    "id": 15,
+    "title": "Het gazon van Pymel (2003) - muziektheater",
+    "description": [
+      "Tekst: eigen tekst (verhaal gebaseerd op Sitcom van François Ozon)",
+
+      "Regie: Serge Elia",
+
+      "Rol: Tuana - de meid (Sara Van Hoezen)"
+    ],
+    "image": "/src/images/pymel.webp",
+    "category": "theater"
+  },
+  {
+    "id": 16,
+    "title": "Le cabaret de Salo (2004) - muziektheater",
+    "description": [
+      "Tekst: naar Peter Weiss en Pier Paolo Pasolini",
+
+      "Regie: Eddy Vereycken / Dramaturgie: Alain Pringels",
+
+      "Rol: Verschillende Joodse vrouwen en nazi (Sara Van Hoezen)",
+      "met Bart Dauwe, Katrien Declercq, Mieke Dobbels, Anna efthymiadis, Volker Luyckx, Koen Ongena, Mout Uyttersprot, Sara Van Hoezen, Ann Van Vooren, e.a."
+    ],
+    "image": "/src/images/cabaret.png",
+    "category": "theater"
+  },
+  {
+    "id": 17,
+    "title": "Cellofaan (2005/2006/2007) - cabaret",
+    "description": [
+      "Tekst: Bjork Jakobsdottir (vertaling en bewerking door Serge Elia)",
+
+      "Regie: Serge Elia",
+
+      "Rol: Marianne (Sara Van Hoezen)"
+    ],
+    "image": "/src/images/cellofaan.webp",
+    "category": "theater"
+  },
+  {
+    "id": 18,
+    "title": "Ava, Sylvana en Greta op de Olympos (2004) - theater",
+    "description": [
+      "Tekst: Erik De Kuyper",
+
+      "Regie: Dirk Pauwels",
+
+      "Rol: Sylvana"
+
+    ],
+    "image": "/src/images/olympos.webp",
+    "category": "theater"
+  }
 ]
