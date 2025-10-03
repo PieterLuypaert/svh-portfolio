@@ -443,6 +443,7 @@ strong {
 .portfolio-item-content {
   padding: 1.5rem;
   position: relative;
+  padding-bottom: 2.8rem; /* Extra space for category label */
 }
 
 .portfolio-item h3 {
@@ -482,12 +483,13 @@ strong {
   line-height: 1.5;
   padding-left: 0;
   font-family: "Fjalla One", sans-serif;
-  text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: 400;
 }
-
 .portfolio-item .category {
+  position: absolute;
+  right: 1.2rem;
+  bottom: 1.2rem;
   display: inline-block;
   background: #2c2c2c;
   color: white;
@@ -497,7 +499,13 @@ strong {
   font-family: "Fjalla One", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease, box-shadow 0.3s;
+  box-shadow: 0 2px 8px rgba(44,44,44,0.08);
+  z-index: 2;
+  pointer-events: none;
+}
+.portfolio-item {
+  position: relative;
 }
 
 .portfolio-item:hover .category {
