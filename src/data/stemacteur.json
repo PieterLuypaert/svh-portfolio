@@ -26,5 +26,14 @@
     "title": "Mitsubishi",
     "category": "stemacteur",
     "audio": "/src/audio/S._Van_Hoezen_Mitsubishi.mp3"
+  },
+    {
+    "id": 9,
+    "title": "Productiehuis SONHOUSE",
+    "description": [
+
+      "Film ‘Milano’, regie Christina Vandekerckhove" 
+    ],
+    "image": "/src/images/milano.webp"
   }
 ]
