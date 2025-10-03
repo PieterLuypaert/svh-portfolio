@@ -125,26 +125,7 @@ export class DataFetcher {
           year: "2022",
         },
       ],
-      onderwijs: [
-        {
-          id: 6,
-          title: "Zangworkshops",
-          description: ["Lesgeven aan jonge talenten in zang en performance."],
-          image: "src/images/onderwijs1.jpg",
-          category: "onderwijs",
-          year: "2023",
-        },
-        {
-          id: 11,
-          title: "Theaterklas voor Kinderen",
-          description: [
-            "Wekelijkse theaterlessen voor kinderen van 8-12 jaar.",
-          ],
-          image: "src/images/onderwijs2.jpg",
-          category: "onderwijs",
-          year: "2023",
-        },
-      ],
+
     };
 
     const data = sampleData[category] || [];
