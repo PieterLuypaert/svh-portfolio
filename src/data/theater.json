@@ -12,7 +12,7 @@
       "Genre: drama"
     ],
     "image": "/src/images/thuiskomst.webp",
-    "category": "Conservatorium Gent (HoGent):"
+    "category": "Conservatorium Gent (HoGent)"
   },
   {
     "id": 2,
@@ -26,7 +26,7 @@
 
     ],
     "image": "/src/images/bacchanten.webp",
-    "category": "Conservatorium Gent (HoGent):"
+    "category": "Conservatorium Gent (HoGent)"
   },
   {
     "id": 3,
@@ -71,7 +71,7 @@
       "met Elise Bundervoet, Brecht Callewaert, Mieke De Groote, Fabrice Delecluse, Luk D’Heu, Hilde Heijnen, Daan Hugaert, Marc Peeters, Mathias Sercu, Miek Van Bocxstaele, Tom Van Landuyt en Eddy Vereycken en conservatoriumstudenten Hogeschool Gent"
     ],
     "image": "/src/images/midzomernachtdroom.webp",
-    "category": "Publiekstheater NTGent:"
+    "category": "Publiekstheater TGent"
   },
   {
     "id": 5,
@@ -86,7 +86,7 @@
       "met Gregory Caers, Michael De Cock, Sophie Derycke, Pieter Genard, Jef Ravelingien, Kurt Vandendriessche, Sara Van Hoezen, Bert Vannieuwenhuyse, Bert Van Poucke en Kurt Vergult"
     ],
     "image": "/src/images/onderzoek.webp",
-    "category": "Publiekstheater NTGent:"
+    "category": "Publiekstheater TGent"
   },
   {
     "id": 6,
@@ -101,7 +101,7 @@
       "met Elise Bundervoet, Mieke De Groote, Luk D’Heu, Daan Hugaert, Marc Peeters, Miek Van Bocxstaele, Tom Van Landuyt, Eddy Vereycken en studenten conservatorium Hogeschool Gent"
     ],
     "image": "/src/images/clockwork.webp",
-    "category": "Publiekstheater NTGent:"
+    "category": "Publiekstheater TGent"
   },
   {
     "id": 7,
@@ -112,7 +112,7 @@
       "met Mathias Sercu, Brecht Callewaert, Mieke De Groote, Fabrice Delecluse, Daan Hugaert, Erna Palsterman, Jef Ravelingien, Joris Schoenmaeckers, Door Van Boeckel, Sara Van Hoezen, Tom Van Landuyt, Greta Van Langendonck, Aron Wade en Maarten Wansink"
     ],
     "image": "/src/images/macbeth.webp",
-    "category": "Publiekstheater NTGent:"
+    "category": "Publiekstheater NTGent"
   },
   {
     "id": 8,
@@ -125,7 +125,7 @@
       "Rol: Tijgerlelie en Nana de hond"
     ],
     "image": "/src/images/peterpan.webp",
-    "category": "Publiekstheater NTGent:"
+    "category": "Publiekstheater NTGent"
   },
   {
     "id": 9,
@@ -138,7 +138,7 @@
       "Rol: Huislerares (Sara Van Hoezen)"
     ],
     "image": "/src/images/leoncenelena.png",
-    "category": "Publiekstheater NTGent:"
+    "category": "Publiekstheater NTGent"
   },
   {
     "id": 10,
@@ -153,7 +153,7 @@
       "Met: Koen Van Impe, Hans Van Cauwenberghe, Brecht Callewaert, Maaike Cafmeyer, Barbare De Jonge, Sara Van Hoezen, Mathias Sercu, Daan Hugaert, Guido Belcanto"
     ],
     "image": "/src/images/rocky.webp",
-    "category": "Publiekstheater NTGent:"
+    "category": "Publiekstheater NTGent"
   },
 
   {
@@ -165,7 +165,7 @@
       "Rol: Chorus en Understudy van de boze heks van het Westen en Miss Almira"
     ],
     "image": "/src/images/heks.webp",
-    "category": "Music Hall:"
+    "category": "Music Hall"
   },
   {
     "id": 12,
@@ -180,7 +180,7 @@
       "Met: Luk De Bruycker, Dirk De Strooper, Harry Deswarte en Sara Van Hoezen"
     ],
     "image": "/src/images/gepetto.webp",
-    "category": "Theater Taptoe:"
+    "category": "Theater Taptoe"
   },
   {
     "id": 13,
@@ -195,7 +195,7 @@
       "Met: Daan Van den Durpel, Anna Efthymiadis, James Cooke, … en Sara Van Hoezen"
     ],
     "image": "/src/images/fame.webp",
-    "category": "Backstage Muziektheater:"
+    "category": "Backstage Muziektheater"
   },
   {
     "id": 14,
@@ -210,7 +210,7 @@
       "met Sherolyn Vandenbossche, Sara Van Hoezen, Anna Efthymiadis, Peter Michel, Eefje De Vulder, Stéphanie Dequin, Femke Stoop, James Cooke en Daan Van den Durpel"
     ],
     "image": "/src/images/hondslelijk.webp",
-    "category": "Backstage Muziektheater:"
+    "category": "Backstage Muziektheater"
   },
   {
     "id": 15,
@@ -225,7 +225,7 @@
       "Met: Sara Van Hoezen, Katrien De Muynck, Ivan Pecnik, Bodé Owa, Maxime De Winne, Anna Efthymiadis, Patrick Vandersande"
     ],
     "image": "/src/images/pymel.webp",
-    "category": "Backstage Muziektheater:"
+    "category": "Backstage Muziektheater"
   },
   {
     "id": 16,
@@ -239,7 +239,7 @@
       "met Bart Dauwe, Katrien Declercq, Mieke Dobbels, Anna efthymiadis, Volker Luyckx, Koen Ongena, Mout Uyttersprot, Sara Van Hoezen, Ann Van Vooren, e.a."
     ],
     "image": "/src/images/cabaret.png",
-    "category": "Backstage Muziektheater:"
+    "category": "Backstage Muziektheater"
   },
   {
     "id": 17,
@@ -252,7 +252,7 @@
       "Rol: Marianne (Sara Van Hoezen)"
     ],
     "image": "/src/images/cellofaan.webp",
-    "category": "Backstage Muziektheater:"
+    "category": "Backstage Muziektheater"
   },
   {
     "id": 18,
@@ -268,6 +268,6 @@
 
     ],
     "image": "/src/images/olympos.webp",
-    "category": "Theater Victoria:"
+    "category": "Theater Victoria"
   }
 ]
