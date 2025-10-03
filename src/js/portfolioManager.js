@@ -74,7 +74,7 @@ export class PortfolioManager {
     const usedCategories = new Set();
 
     for (const item of this.allItems) {
-      if (previewItems.length >= 2) break;
+      if (previewItems.length >= 4) break;
 
       if (!usedCategories.has(item.category)) {
         previewItems.push(item);
