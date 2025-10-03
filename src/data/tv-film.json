@@ -84,5 +84,21 @@
     "image": "/src/images/thuis.webp",
     "category": "tv-film",
     "year": "2022"
+  },
+  {
+    "id": 5,
+    "title": "Verschoten en Zoon (Cindy-2007) - VTM",
+    "description": [
+      "Seizoen: 8",
+
+      "Episode: 1 (aflevering 2 ‘Blind Date’)",
+
+      "Rol: Cindy",
+
+      "Genre: Comedy",
+
+      "Productiehuis: D&D Producties"
+    ],
+    "image": "/src/images/verschotenwebp.webp"
   }
 ]
