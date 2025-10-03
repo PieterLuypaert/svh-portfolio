@@ -34,8 +34,8 @@
     "id": 9,
     "title": "Film Milano",
     "description": [
-      "regie Christina Vandekerckhove",
-      "Productiehuis SONHOUSE"
+      "regie: Christina Vandekerckhove",
+      "Productiehuis: SONHOUSE"
     ],
     "category": "Voice-over film",
     "image": "/src/images/milano.webp"
