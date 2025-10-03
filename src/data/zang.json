@@ -19,5 +19,14 @@
     "description": "Merel Cappaert (zwart), Sara Van Hoezen (wit), Liv Goethals (rood) - alias De Madonna's of beter The Lucky Stars zingen a capella o.a. La Isla Bonita, Material Girl, Like a Virgin (eigen bewerkingen) op straat tijdens de Gentse Feesten",
     "image": "/src/images/luckystars.jpeg",
     "category": "zang"
+  },
+  {
+    "id": 9,
+    "title": "Productiehuis SONHOUSE",
+    "description": [
+
+      "Film ‘Milano’, regie Christina Vandekerckhove" 
+    ],
+    "image": "/src/images/milano.webp"
   }
 ]
