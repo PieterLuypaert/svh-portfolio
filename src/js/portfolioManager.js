@@ -116,8 +116,8 @@ export class PortfolioManager {
 
       if (category === "all") {
         itemsToShow = this.allItems;
-      } else if (category === "onderwijs") {
-        // Special handling for onderwijs - show PDF
+      } else if (category === "CV") {
+        // Special handling for CV - show PDF
         this.renderPDF();
         this.setButtonsState(true);
         return;
@@ -154,9 +154,9 @@ export class PortfolioManager {
 
     pdfDiv.innerHTML = `
       <div class="pdf-header">
-        <h3>Onderwijs</h3>
+        <h3>CV</h3>
         <div class="pdf-controls">
-          <a href="src/images/Onderwijs.pdf" target="_blank" class="pdf-download-btn">
+          <a href="src/images/CVSARAVANHOEZEN.pdf" target="_blank" class="pdf-download-btn">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
               <polyline points="7,10 12,15 17,10"/>
@@ -168,18 +168,18 @@ export class PortfolioManager {
       </div>
       <div class="pdf-viewer">
         <iframe 
-          src="src/images/Onderwijs.pdf" 
+          src="src/images/CVSARAVANHOEZEN.pdf" 
           type="application/pdf"
-          title="Onderwijs Portfolio PDF"
+          title="cv Portfolio PDF"
           loading="lazy">
           <p>Je browser ondersteunt geen PDF weergave. 
-            <a href="src/images/Onderwijs.pdf" target="_blank">Klik hier om de PDF te downloaden</a>
+            <a href="src/images/CVSARAVANHOEZEN.pdf" target="_blank">Klik hier om de PDF te downloaden</a>
           </p>
         </iframe>
       </div>
       <div class="portfolio-item-content">
-        <p>Mijn ervaring en kwalificaties in het onderwijs. Download de PDF voor meer details over mijn onderwijsachtergrond.</p>
-        <span class="category">${this.getCategoryLabel("onderwijs")}</span>
+        <p>Mijn ervaring en kwalificaties. Download de PDF voor meer details.</p>
+        <span class="category">${this.getCategoryLabel("CV")}</span>
       </div>
     `;
 

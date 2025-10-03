@@ -139,7 +139,7 @@ export class DataFetcher {
       "tv-film",
       "zang",
       "stemacteur",
-      "onderwijs",
+      "CV",
     ];
 
     try {
