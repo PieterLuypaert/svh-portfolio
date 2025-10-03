@@ -69,16 +69,33 @@ export class PortfolioManager {
   }
 
   getPreviewItems() {
-    // Show max 2 items from different categories as preview
+    // Handmatig geselecteerde preview items (6 projecten)
+    const selectedPreviewIds = [1, 3, 4, 17, 12, 10]; 
+
     const previewItems = [];
-    const usedCategories = new Set();
 
-    for (const item of this.allItems) {
-      if (previewItems.length >= 4) break;
-
-      if (!usedCategories.has(item.category)) {
+    // Zoek de geselecteerde items op basis van hun ID
+    for (const id of selectedPreviewIds) {
+      const item = this.allItems.find((item) => item.id === id);
+      if (item) {
         previewItems.push(item);
-        usedCategories.add(item.category);
+      }
+
+      // Stop als we 6 items hebben
+      if (previewItems.length >= 6) break;
+    }
+
+    // Als we niet genoeg geselecteerde items hebben, vul aan met andere items
+    if (previewItems.length < 6) {
+      const usedIds = new Set(previewItems.map((item) => item.id));
+
+      for (const item of this.allItems) {
+        if (previewItems.length >= 6) break;
+
+        if (!usedIds.has(item.id)) {
+          previewItems.push(item);
+          usedIds.add(item.id);
+        }
       }
     }
 

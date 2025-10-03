@@ -60,6 +60,14 @@ export class DataFetcher {
           category: "theater",
           year: "2022",
         },
+        {
+          id: 7,
+          title: "Les Misérables",
+          description: ["Ensemble rol in de klassieke musical Les Misérables."],
+          image: "src/images/theater3.jpg",
+          category: "theater",
+          year: "2021",
+        },
       ],
       "tv-film": [
         {
@@ -70,6 +78,14 @@ export class DataFetcher {
           category: "tv-film",
           year: "2023",
         },
+        {
+          id: 8,
+          title: "Korte Film Project",
+          description: ["Hoofdrol in een onafhankelijke korte film."],
+          image: "src/images/tv2.jpg",
+          category: "tv-film",
+          year: "2022",
+        },
       ],
       zang: [
         {
@@ -77,6 +93,14 @@ export class DataFetcher {
           title: "Solo Concert",
           description: ["Optreden in het Concertgebouw met eigen repertoire."],
           image: "src/images/zang1.jpg",
+          category: "zang",
+          year: "2023",
+        },
+        {
+          id: 9,
+          title: "Jazz Café Optreden",
+          description: ["Intieme jazz sessie in lokaal café."],
+          image: "src/images/zang2.jpg",
           category: "zang",
           year: "2023",
         },
@@ -92,6 +116,14 @@ export class DataFetcher {
           category: "stemacteur",
           year: "2023",
         },
+        {
+          id: 10,
+          title: "Documentaire Voice-over",
+          description: ["Voice-over werk voor natuurdocumentaire."],
+          image: "src/images/voice2.jpg",
+          category: "stemacteur",
+          year: "2022",
+        },
       ],
       onderwijs: [
         {
@@ -99,6 +131,16 @@ export class DataFetcher {
           title: "Zangworkshops",
           description: ["Lesgeven aan jonge talenten in zang en performance."],
           image: "src/images/onderwijs1.jpg",
+          category: "onderwijs",
+          year: "2023",
+        },
+        {
+          id: 11,
+          title: "Theaterklas voor Kinderen",
+          description: [
+            "Wekelijkse theaterlessen voor kinderen van 8-12 jaar.",
+          ],
+          image: "src/images/onderwijs2.jpg",
           category: "onderwijs",
           year: "2023",
         },
