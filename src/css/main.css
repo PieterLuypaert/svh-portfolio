@@ -2044,11 +2044,6 @@ strong {
   transition: all 0.3s ease;
 }
 
-.pdf-download-btn:hover {
-  background: #1a1a1a;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(44, 44, 44, 0.2);
-}
 
 .pdf-viewer {
   width: 100%;
