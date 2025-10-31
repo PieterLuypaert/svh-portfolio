@@ -288,7 +288,7 @@ export class PortfolioManager {
 
       return `
         <div class="audio-section">
-            <h4>Luister fragment:</h4>
+            <h4>Luisterfragment:</h4>
             <audio controls preload="metadata" class="audio-player">
                 <source src="${audioSrc}" type="audio/mpeg">
                 <source src="${audioSrc.replace(
