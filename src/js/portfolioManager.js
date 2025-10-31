@@ -70,7 +70,7 @@ export class PortfolioManager {
 
   getPreviewItems() {
     // Handmatig geselecteerde preview items (6 projecten)
-    const selectedPreviewIds = [10, 12, 17, 20, 8, 1]; 
+    const selectedPreviewIds = [10, 12, 17, 20, 8, 50]; 
 
     const previewItems = [];
 
