@@ -19,5 +19,12 @@
     "description": "Merel Cappaert (zwart), Sara Van Hoezen (wit), Liv Goethals (rood) - alias De Madonna's of beter The Lucky Stars zingen a capella o.a. La Isla Bonita, Material Girl, Like a Virgin (eigen bewerkingen) op straat tijdens de Gentse Feesten",
     "image": "/src/images/luckystars.jpeg",
     "category": "zang"
+  },
+    {
+    "id": 14,
+    "title": "De mooiste van van mijn leven",
+    "image": "/src/images/dagvanmenleven.png",
+    "category": "Zang",
+    "audio": "/src/audio/dagvanleven.mp3"
   }
 ]
